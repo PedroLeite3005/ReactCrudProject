@@ -1,0 +1,86 @@
+.admin-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: white; /* Cor de texto branca para o fundo preto */
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #fff; /* Cor do título */
+}
+
+.add-user-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.add-user-form input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #555; /* Cor da borda mais escura */
+  border-radius: 4px;
+  background-color: #333; /* Fundo escuro para os campos de input */
+  color: white; /* Texto branco */
+}
+
+.btn-add {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-color: #45a049;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #222; /* Fundo escuro para a tabela */
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #444; /* Cor de borda escura */
+  padding: 10px;
+  text-align: left;
+  color: white; /* Cor do texto branco */
+}
+
+.user-table th {
+  background-color: #333; /* Fundo escuro nos cabeçalhos */
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 5px 10px;
+  font-size: 13px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #0b7dda;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #da190b;
+}

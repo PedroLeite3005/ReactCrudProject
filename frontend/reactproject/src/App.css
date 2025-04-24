@@ -1,0 +1,167 @@
+/* Estilização do título */
+.title {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.title button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Estilização do botão de adicionar */
+.btn-add {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-add:hover {
+    transform: scale(1.05);
+    background-color: darkgreen;
+}
+
+/* Estilização do formulário de adicionar usuário */
+.add-user-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+.add-user-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilização da lista */
+.list {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.list li {
+    background: linear-gradient(135deg, #007bff, #00d4ff);
+    color: white;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.list li:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.list li span {
+    font-weight: bold;
+    color: #f8f9fa;
+}
+
+/* Estilização dos botões dos cards de usuários */
+.btn-list {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    margin-top: 10px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.btn-list:hover {
+    transform: scale(1.05);
+}
+
+.btn-list:active {
+    transform: scale(0.95);
+}
+
+.btn-list.info {
+    background: #787878;
+    color: white;
+}
+
+.btn-list.edit {
+    background-color: yellow;    
+}
+
+.btn-list.edit span {
+    color: black;
+}
+
+.btn-list.delete {
+    background-color: red;
+}
+
+.btn-list.delete span {
+    color: white;
+}
+
+/* Estilização da paginação */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+  
+.pagination button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+  
+.pagination button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+  
+.pagination span {
+    color: #f8f9fa;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Estilização do footer */
+.authorInfo{
+    text-align: center;
+    color: #f8f9fa;
+}
+  
