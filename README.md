@@ -20,34 +20,7 @@ Este é um projeto desenvolvido como parte de um trabalho para a PUCPR. Ele impl
 
 ## 📁 Estrutura do Projeto
 
-Trabalho1
-    -backend
-        -Controllers
-            -users.js
-        -node_modules
-        -Routes
-            -users.js
-        -app.js
-        -db.js
-        -package.json
-    -frontend
-        -reactProject
-            -node_modules
-            -public
-            -src
-                -Components
-                    -Datalist.jsx
-                -Admin.css
-                -admin.jsx
-                -App.css
-                -App.jsx
-                -index.css
-                -index.jsx
-                -Modal.css             
-            -package.json
-    -.gitignore
-    -README.md
-    -SQLusuarios.sql
+Trabalho1/ ├── backend/ │ ├── Controllers/ │ │ └── users.js │ ├── Routes/ │ │ └── users.js │ ├── node_modules/ │ ├── app.js │ ├── db.js │ └── package.json ├── frontend/ │ └── reactProject/ │ ├── node_modules/ │ ├── public/ │ ├── src/ │ │ ├── Components/ │ │ │ └── Datalist.jsx │ │ ├── Admin.css │ │ ├── admin.jsx │ │ ├── App.css │ │ ├── App.jsx │ │ ├── index.css │ │ ├── index.jsx │ │ └── Modal.css │ └── package.json ├── .gitignore ├── README.md └── SQLusuarios.sql
 
 ## 🚀 Como Executar
 
