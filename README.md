@@ -46,7 +46,7 @@ INSERT INTO `usuarios` VALUES (1,'Sherri Larson',40,'92271-4190','Feminino','11/
 Primeiro Console:
 
 ```bash
-- cd frontend
+- cd frontend/reactproject
 - npm install
 - npm start
 ```
