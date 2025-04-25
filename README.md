@@ -62,3 +62,5 @@ Desenvolvido por Pedro Bastos Leite para a PUCPR.
 GitHub: @PedroLeite3005
 <br>
 Repository: https://github.com/PedroLeite3005/ReactCrudProject
+<br>
+Video(pt-BR): https://youtu.be/pJGWX9KkBoY

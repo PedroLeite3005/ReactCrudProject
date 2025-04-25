@@ -44,7 +44,7 @@ const Admin = () => {
 			if (!response.ok) {
 				throw new Error("Erro ao salvar");
 			}
-			console.log(response.text());
+			
             setData(data.map(user => user.id === editUser.id ? editUser : user));
 			setEditModalIsOpen(false);
 			setEditUser(null);
