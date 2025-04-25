@@ -20,7 +20,34 @@ Este é um projeto desenvolvido como parte de um trabalho para a PUCPR. Ele impl
 
 ## 📁 Estrutura do Projeto
 
-Trabalho1/ ├── backend/ │ ├── controllers/ │ ├── routes/ │ ├── node_modules/ │ ├── app.js │ ├── db.js │ └── package.json ├── frontend/ │ ├── public/ │ ├── src/ │ │ ├── components/ │ │ │ └── DataList.jsx │ │ └── Admin.jsx │ │ ├── App.jsx │ │ └── index.js │ ├── node_modules/ │ ├── package.json │ └── vite.config.js └── README.md
+Trabalho1
+    -backend
+        -Controllers
+            -users.js
+        -node_modules
+        -Routes
+            -users.js
+        -app.js
+        -db.js
+        -package.json
+    -frontend
+        -reactProject
+            -node_modules
+            -public
+            -src
+                -Components
+                    -Datalist.jsx
+                -Admin.css
+                -admin.jsx
+                -App.css
+                -App.jsx
+                -index.css
+                -index.jsx
+                -Modal.css             
+            -package.json
+    -.gitignore
+    -README.md
+    -SQLusuarios.sql
 
 ## 🚀 Como Executar
 
