@@ -42,6 +42,7 @@ INSERT INTO `usuarios` VALUES (1,'Sherri Larson',40,'92271-4190','Feminino','11/
 ```
 
 2. **Instale as dependências**
+<br>
 Primeiro Console:
 ```bash
 - cd frontend
@@ -58,3 +59,5 @@ Segundo Console:
 
 Desenvolvido por Pedro Bastos Leite para a PUCPR.
 GitHub: @PedroLeite3005
+<br>
+Repository: https://github.com/PedroLeite3005/ReactCrudProject
